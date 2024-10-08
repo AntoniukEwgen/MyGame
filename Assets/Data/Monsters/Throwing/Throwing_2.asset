@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886213a69dd33422f94e65656863fa3e, type: 3}
+  m_Name: Throwing_2
+  m_EditorClassIdentifier: 
+  name: Throwing_2
+  hp: 25
+  atk: 10
+  recovery: 0
+  armor: 0
+  atkspeed: 0.2
+  movespeed: 0.6
+  acceleration: 0
+  gemLootTable:
+    lootTable:
+    - item: 10
+      dropChance: 0.5
+      coinType: 0
+  coinLootTable:
+    lootTable:
+    - item: 5
+      dropChance: 0.1
+      coinType: 0
+    - item: 30
+      dropChance: 0.1
+      coinType: 0
+  walkSpriteSequence:
+  - {fileID: 389224662, guid: d11d96dd239ed04479733cdc26e03353, type: 3}
+  - {fileID: 1825944514, guid: d11d96dd239ed04479733cdc26e03353, type: 3}
+  - {fileID: 225825148, guid: d11d96dd239ed04479733cdc26e03353, type: 3}
+  - {fileID: 807359425, guid: d11d96dd239ed04479733cdc26e03353, type: 3}
+  - {fileID: -1877859151, guid: d11d96dd239ed04479733cdc26e03353, type: 3}
+  - {fileID: -1045046947, guid: d11d96dd239ed04479733cdc26e03353, type: 3}
+  - {fileID: -1516148159, guid: d11d96dd239ed04479733cdc26e03353, type: 3}
+  - {fileID: -1400939520, guid: d11d96dd239ed04479733cdc26e03353, type: 3}
+  walkFrameTime: 0.07
+  throwablePrefab: {fileID: 1845338799100702081, guid: 5de925b6bea5b264f889ca92195bccb9, type: 3}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 320
+  range: 2
+  timeAllowedOutsideRange: 1

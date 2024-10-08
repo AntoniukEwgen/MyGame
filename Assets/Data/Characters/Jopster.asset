@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cebba9219e8740668e9101e947a97e4, type: 3}
+  m_Name: Jopster
+  m_EditorClassIdentifier: 
+  name: Jopster
+  owned: 1
+  cost: 999
+  hp: 50
+  recovery: 0
+  armor: 0
+  movespeed: 1.15
+  luck: 1
+  acceleration: 50
+  walkSpriteSequence:
+  - {fileID: -1950413799, guid: b440d2d95bda02c488e40b00c7c01284, type: 3}
+  - {fileID: -2023893572, guid: b440d2d95bda02c488e40b00c7c01284, type: 3}
+  - {fileID: -113986087, guid: b440d2d95bda02c488e40b00c7c01284, type: 3}
+  - {fileID: 1939136588, guid: b440d2d95bda02c488e40b00c7c01284, type: 3}
+  - {fileID: 1188295417, guid: b440d2d95bda02c488e40b00c7c01284, type: 3}
+  - {fileID: 211343411, guid: b440d2d95bda02c488e40b00c7c01284, type: 3}
+  - {fileID: 161981207, guid: b440d2d95bda02c488e40b00c7c01284, type: 3}
+  - {fileID: -771618794, guid: b440d2d95bda02c488e40b00c7c01284, type: 3}
+  walkFrameTime: 0.06
+  startingAbilities:
+  - {fileID: 7378740072262091319, guid: 6bf0c7ded38f2427f8fbf34693543d88, type: 3}
+  - {fileID: 7378740072262091319, guid: 39204614fc67b40eaa117e59ba519b20, type: 3}

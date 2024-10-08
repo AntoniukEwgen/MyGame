@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cebba9219e8740668e9101e947a97e4, type: 3}
+  m_Name: Blumper
+  m_EditorClassIdentifier: 
+  name: Blumper
+  owned: 1
+  cost: 500
+  hp: 80
+  recovery: 0
+  armor: 0
+  movespeed: 1
+  luck: 1
+  acceleration: 50
+  walkSpriteSequence:
+  - {fileID: 556674909, guid: 3e932e724f513d24da128ed1ee073c61, type: 3}
+  - {fileID: -1159841785, guid: 3e932e724f513d24da128ed1ee073c61, type: 3}
+  - {fileID: -714553732, guid: 3e932e724f513d24da128ed1ee073c61, type: 3}
+  - {fileID: -1437837260, guid: 3e932e724f513d24da128ed1ee073c61, type: 3}
+  - {fileID: 1873909263, guid: 3e932e724f513d24da128ed1ee073c61, type: 3}
+  - {fileID: 2095276799, guid: 3e932e724f513d24da128ed1ee073c61, type: 3}
+  - {fileID: 1502378933, guid: 3e932e724f513d24da128ed1ee073c61, type: 3}
+  - {fileID: -797474443, guid: 3e932e724f513d24da128ed1ee073c61, type: 3}
+  walkFrameTime: 0.06
+  startingAbilities:
+  - {fileID: 7378740072262091319, guid: 035b777c757ec454ba0b4711eed2ef82, type: 3}
+  - {fileID: 7378740072262091319, guid: 68faf193e4e8d451aa2229ed6155917b, type: 3}
+  - {fileID: 7378740072262091319, guid: 6bf0c7ded38f2427f8fbf34693543d88, type: 3}
