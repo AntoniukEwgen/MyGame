@@ -10,16 +10,6 @@ showStatusBar = false
 scopes = {
 }
 providers = {
-	st = {
-		active = true
-		priority = 100
-		defaultAction = null
-	}
-	at = {
-		active = true
-		priority = 100
-		defaultAction = null
-	}
 	packages = {
 		active = true
 		priority = 90
